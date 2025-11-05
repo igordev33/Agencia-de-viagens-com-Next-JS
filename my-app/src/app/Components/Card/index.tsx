@@ -16,7 +16,7 @@ const Card = ({ trip }: Props) => {
                 <h3 className={styles.card__title}>{trip.nome}</h3>
                 <p className={styles.card__text}>{trip.descricao}</p>
             </div>
-            <Link className={styles.card__button} href={`/destinos/${trip.id}`}>Agende a sua viagem</Link>
+            <Link className={styles.card__button} href={'#'}>Agende a sua viagem</Link>
         </div>
     )
 }
