@@ -1,0 +1,59 @@
+.main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../public/Home-background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.main__card{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    background-color: white;
+}
+
+.card__image {
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.card__textContainer {
+    margin-inline: auto;
+    margin-block: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__title{
+    text-align: center;
+}
+
+.card__text {
+    max-width: 400px;
+    text-align: center;
+}
+
+.card__button {
+    background-color: #801A86;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    transition: transform 0.6 ease;
+    cursor: pointer;
+}
+
+.card__button:hover{
+    transform: scale(1.02)
+}
+
